@@ -1,3 +1,5 @@
+[![NuGet](https://img.shields.io/nuget/v/CommitHashNative?style=flat)](https://www.nuget.org/packages/CommitHashNative/)
+
 # CommitHashNative
 
 This NuGet package adds a Pre-Build event that will update the file `<CommitHash.h>` with the current commit hash.
