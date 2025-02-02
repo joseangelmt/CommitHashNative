@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CommitHashNative</id>
+    <version>1.0.0</version>
+    <title></title>
+    <authors>José Ángel Martínez Torres</authors>
+    <owners>José Ángel Martínez Torres</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <readme>README.md</readme>
+    <description>This NuGet package adds a Pre-Build event that will update the file &lt;CommitHash.h&gt; with the current commit hash.
+
+Include &lt;CommitHash.h&gt; file and you'll have the current commit hash in the COMMIT_HASH macro.</description>
+    <summary></summary>
+    <language>en-US</language>
+    <tags>native nativepackage git commit hash</tags>
+    <repository type="git" url="https://github.com/joseangelmt/CommitHashNative.git" branch="main" />
+  </metadata>
+  <files>
+    <file src="build\native\Include\_._" target="build\native\Include\_._" />
+    <file src="build\native\CommitHashNative.props" target="build\native\CommitHashNative.props" />
+    <file src="build\native\StoreCommitHash.bat" target="build\native\StoreCommitHash.bat" />
+    <file src="README.md" target="README.md" />
+    <file src="Readme.txt" target="Readme.txt" />
+  </files>
+</package>
